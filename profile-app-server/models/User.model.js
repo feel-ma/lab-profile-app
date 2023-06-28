@@ -48,7 +48,8 @@ const userSchema = new Schema(
       enum: courseOptions,
       required: true
     },
-    image: String
+    imageUrl: String
+
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`    
